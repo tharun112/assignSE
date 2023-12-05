@@ -1,10 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
-    background: url('anime-background.jpg'); /* Add your background image */
+    /* Updated background for better visibility */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url('anime-background.jpg');
     background-size: cover;
-    color: rgb(21, 161, 255);
 }
 
+section {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+#featured-anime, #anime-character-showcase {
+    text-align: center;
+}
+main {
+    background-image: url('ainz-ooal-gown-overload-anime-4k-c8-1366x768');
+    background-size: cover; /* This ensures the image covers the entire area */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+}
 header {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
